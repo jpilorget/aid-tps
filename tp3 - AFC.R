@@ -24,7 +24,7 @@ freq_esp <- chisq.test(datos)$expected
 chisq.test(datos, correct = F)
 
 #Elijo el directorio y cargo el archivo
-setwd("C:/Users/Usuario/Downloads/AID")
+setwd("~/TP3")
 cargo_fumador <- read.csv2("cargo_fumador.csv")
 
 #Creo los perfiles fila y columna
