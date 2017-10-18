@@ -20,7 +20,7 @@ sum(autovec[,2] * c(2,2,1))
 
 #EJERCICIO 2
 #Elijo el directorio y cargo el archivo
-setwd("C:/Users/jpilorget/Documents/Maestría en Data Mining - UBA/2017 1C - Análisis Inteligente de Datos")
+setwd("~/TP2")
 chalets_total <- read_xls("chalets.xls")
 chalets_total <- setNames(chalets_total, c("promotora","dur_hipoteca","precio_medio","sup_cocina"))
 chalets_total <- as.data.frame(chalets_total)
