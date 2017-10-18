@@ -1,5 +1,5 @@
 #Elijo el directorio y cargo las librerías
-setwd("C:/Users/jpilorget/Documents/Maestría en Data Mining - UBA/2017 1C - Análisis Inteligente de Datos")
+setwd("~/TP 5")
 library(nortest)
 library(ADGofTest)
 library(MASS)
