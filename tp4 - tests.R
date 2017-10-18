@@ -1,4 +1,5 @@
-setwd("C:/Users/Usuario/Downloads/AID/TP 4")
+#Cargo las librerías y elijo el directorio
+setwd("~/TP 4")
 library(nortest)
 library(ADGofTest)
 library(MASS)
